@@ -39,7 +39,7 @@ return (
 <div>
 {keys.map((key) => (
 <button key={key} id={key===" "?"key-space":`key-${key}`}
-onClick={()=>handleKeyPress(key)}
+onClick={()=>handleKeyPress}
 
 >
 {key === " " ? "Space" : key.toUpperCase()}
